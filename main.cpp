@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <iostream>
-#include "variables.hpp"
+#include "run.hpp"
 
-using namespace std;
 
 int main() {
-    cout << "hello \n";
-    cout << x;
+    std::cout << "hello \n";
+    Run();
     return 0;
 }
